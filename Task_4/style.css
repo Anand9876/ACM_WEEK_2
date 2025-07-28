@@ -1,0 +1,72 @@
+h1 {
+    color: lightblue; 
+    font-size: 50px;
+    font-family:cursive;
+    text-shadow: 2px 2px;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+    width: 100%;
+    max-width: 900px;
+    box-sizing: border-box;
+    background-color: whitesmoke;
+    border-radius: 5%;
+    margin-left:15% ;
+}
+
+.apod-container {
+    background-color: skyblue;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.7);
+    text-align: center;
+    width: 100%;
+}
+
+#apod-title {
+    color: #c9d1d9;
+    font-size: 1.8em;
+    margin-bottom: 15px;
+}
+
+#apod-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    border: 2px solid #58a6ff;
+    box-shadow: 0 0 15px rgba(88, 166, 255, 0.4);
+}
+
+#apod-date {
+    font-style: italic;
+    color: #8b949e;
+    margin-bottom: 10px;
+}
+
+#apod-explanation {
+    line-height: 1.6;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+#apod-copyright {
+    font-size: 0.9em;
+    color: #8b949e;
+}
+
+footer {
+    background-color:skyblue;
+    padding: 15px;
+    width: 100%;
+    text-align: center;
+    color: #8b949e;
+    font-size: 0.8em;
+    margin-top: 20px;
+}
+
