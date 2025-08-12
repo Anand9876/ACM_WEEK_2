@@ -1,4 +1,4 @@
-// Paste your Firebase configuration object here
+
 const firebaseConfig = {
   apiKey: "AIzaSyBKed0VROrO4McdWxH7S-_HYHCXEx3f9-U",
   authDomain: "author-finder-2b447.firebaseapp.com",
@@ -40,4 +40,5 @@ async function findBooksByAuthor(name) {
         console.error("Error fetching books: ", error);
         resultsContainer.innerHTML = '<p>Sorry, something went wrong.</p>';
     }
+
 }
